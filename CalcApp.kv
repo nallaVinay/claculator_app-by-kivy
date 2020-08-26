@@ -1,0 +1,67 @@
+<CalcWindow>:
+    orientation:'vertical'
+    padding:(10,0)
+    spacing:3
+    canvas.before:
+        Color:
+            rgba: (0.004,0.055,0.102,1.0)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        size_hint_y:.2
+        GridLayout:
+            cols:2
+            Label:
+                id:text_q
+                text:''
+                color:(1,0.1,1,1)
+                font_size:26
+
+            Label:
+                id: equal
+                text:''
+                color:(1,0.4,1,1)
+                font_size:26
+    TextInput:
+        id:binding
+        font_size:21
+        multiline:False
+        size_hint_y:.2
+        text_hint:'enter the data'
+    BoxLayout:
+        id:buttons
+        spacing:2
+        GridLayout:
+            color:(0,0.1,1,1)
+            spacing:2
+            id: number
+            cols:3
+        BoxLayout:
+            spacing:2
+            orientation:'vertical'
+            GridLayout:
+                color:(0,0.1,1,1)
+
+                spacing:2
+                cols:3
+                id:numbers
+            BoxLayout:
+                spacing:2
+                size_hint_y:.31
+                id:box1
+                spacing:2
+
+        GridLayout:
+            spacing:2
+            color:(0,0.1,1,1)
+            size_hint_x:.3
+            id:sym
+            cols:1
+
+    BoxLayout:
+        spacing:2
+        size_hint_y:.2
+        Label:
+            text:'Calculator'
