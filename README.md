@@ -1,13 +1,13 @@
-Documentation for the Calculator App.
-Introduction
+Documentation for the Calculator App:
+Introduction:
 Welcome to the documentation for the Calculator App. This document overviews the application's functionality, features, and usage instructions.
 
-Features
+Features:
 Basic Arithmetic Operations: Addition, subtraction, multiplication, and division.
 Clear Button: Clear the input field.
 History: Display the history of calculations.
 
-Requirements
+Requirements:
 Android device running Android OS.
 Installation of the Calculator App APK file.
 Installation
