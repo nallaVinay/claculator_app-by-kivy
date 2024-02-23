@@ -1,4 +1,4 @@
-<CalcWindow>:
+CalcWindow>:
     orientation:'vertical'
     padding:(10,0)
     spacing:3
